@@ -1,0 +1,808 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.sec1 > img{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    background-attachment: fixed;
+    z-index: -2;
+}
+.sec1{
+    /* border: 1px solid red; */
+    display: flex;
+}
+.flex{
+    display: flex;
+}
+.marked{
+    color: #ff974f;
+    width: 20px;
+    font-size: 5vw;
+}
+
+.header{
+    padding: 20px;
+    display: flex;
+}
+.address{
+    color: white;
+}
+.ghost{
+    width: 40px;
+}
+.telephone{
+    color: #ff974f;
+}
+.phone-container{
+    /* border: 1px solid red; */
+    width: 50px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    color: white;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ghost-spacing{
+    width: 20%;
+}
+.navbar{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 20vh;
+    display: flex;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    width: 40%;
+    height: 20vh;
+}
+.logo > img{
+    width: 90%;
+    height: 70%;
+}
+.links-border{
+    width: 60%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-size: 1.5vw;
+}
+.links{
+    color: white;
+    /* border: 1px solid red; */
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.links > a{
+    color: white;
+}
+.contact-border{
+    padding: 20px;
+    border: 2px solid #ff974f;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.contact-border > a{
+    color: white;
+}
+.contact-border:hover{
+    border-color: #ff974f;
+}
+.active{
+    font-weight: 900;
+}
+.main-header{
+    /* border: 1px solid red; */
+    height: 30rem;
+}
+.heading{
+    color: white;
+    /* border: 1px solid red; */
+    height: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 3.3vw;
+}
+/* you */
+.sub-text{
+    height: 10vh;
+    color: #ff974f;
+    /* border: 1px solid red; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+}
+/* practice */
+.header-btn{
+    /* border: 1px solid red; */
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* practice btn */
+.heading-button{
+    padding: 25px;
+    border: none;
+    background-color: #ff974f;
+    color: white;
+    font-size: 1.2vw;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: 0.4s;
+}
+.heading-button:hover{
+    background-color: #ff8c00;
+}
+/* row */
+.image-row{
+    width: 100%;
+    height: 70vh;
+    /* border: 1px solid red; */
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* row2 */
+.images-container{
+    width: 90%;
+    height: 60vh;
+    /* border: 1px solid red; */
+    background-color: white;
+    transform: translateY(-80px);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+/* imgstyle */
+.img-width{
+    width: 25vw;
+    height: 70%;
+}
+/* welcome */
+.text2{
+display: flex;
+position: relative;
+align-items: center;
+top:-90px;
+left:90px;
+}
+/* welcome */
+.law{
+    color: #636363;
+    font-size: 1rem;
+    font-family: inherit;
+}
+/* gateway */
+.bay{
+    color: #1f2a30;
+    font-size: 1.6rem;
+    font-family: 'lora', serif;
+}
+/* static */
+.big{
+    position: static;
+    width: 80px;
+    height:2px;
+    color: #ff974f;
+    border: 1px solid#ff974f;
+}
+/* ouraim */
+.firm{
+    color:#636363;
+    font-size:1rem ;
+    font-family: raleway,san-serif;
+    display: block;
+    line-height: 30px;
+}
+/* our2 */
+.aim{
+    top: 100px;
+    /* border: 1px solid red; */
+    height: 150px;
+    width:250px;
+    justify-content: space-between;
+}
+/* blog */
+.ai{
+    height: 150px;
+    padding-left: 50px;
+    width:250px;
+}
+/* readmore */
+.container{
+    width: 30%;
+    height: 20vh;
+    display: flex;
+    position: relative;
+    left: 70px;
+    top:-80px; 
+}
+/* readbtn */
+.read{
+    background-color: white;
+    color:black;
+    /* border:2px  solid #ff8c00; */
+    padding:12px 22px;
+    font-size:16px ;
+    font-weight: 900;
+    font-family: inherit;
+    letter-spacing: 1px;
+    align-items: center;
+    right: 850px;
+    top: 70px;
+    padding-top: 16px;
+    text-decoration: none;
+    position: relative;
+    border: 2px solid #f1f1f1;
+}
+.read:hover{
+  
+    border: 1px solid #ff8c00;
+}
+/* tade */
+.img{
+    background-image: url(../images/tade.jpg);
+    width: 100%;
+    height: 650px;
+}
+/* bg2 */
+#white{
+    background-color: #f1f1f1;
+    height: 480px;
+    width: 75%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top: 80px;
+    left: 150px ;
+}
+/* talkbtt */
+.xoxo{
+    font-size: 1rem;
+    font-family: inherit;
+    color: #1f2a30;
+    top: 50px;
+    position: relative;
+    left:5% ;
+}
+/* contactbtt */
+.off{
+    font-size: 1.6rem;
+    font-family: 'lora',serif;
+    color: #1f2a30;
+    top: 60px;
+    position: relative;
+    left:5% ; 
+}
+/* list */
+.see{
+    width: 200px;
+    position: relative;
+    left: 700px;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 20px; */
+}
+/* liststyling */
+.pen{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #636363;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pen:hover{
+    color: orange;
+    opacity: 0.87;
+}
+/* inputbox */
+.form{
+    position: relative;
+    left: 450px;
+    top:25px ; 
+}
+/* inputbox */
+.form input{
+    width:450px ;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid#636363;
+}
+.yellow{
+    position: absolute;
+    margin-top :15px;
+    width: 450px;
+    height: 120px;
+    border-radius: 5px;
+    padding: 10px;
+    border:1px solid #636363
+}
+.open{
+    position: absolute;
+    top: 400px;
+    left: 730px;
+    background-color: #ff974f;
+    color: aliceblue;
+    padding: 15px 40px 15px 40px; 
+    border-radius: 5px;
+}
+
+.open:hover{
+    background-color: #ff8c00;
+}
+
+ /* tried */
+.color{
+    position: relative;
+    top: 20px;
+    left: 50px;
+    color: #1f2a30;
+}
+/* mailbox */
+.mail{
+    position: relative;
+    top: 20px;
+    left: 50px;
+    color: #1f2a30;
+}
+/* locator */
+.address2{
+    position:relative ;
+    top:30px;
+    left: 50px;
+    color: #1f2a30;
+}
+/* border2 */
+ .rant{
+    position: relative;
+    border: 1px solid#ff974f;
+    width: 80px;
+    height: 2px;
+    left: 1px;
+    top: -290px;
+
+
+    /* position: relative;
+    border: 1px solid #ff974f;
+    width: 80px;
+    height: 2px;
+    top: -290px;
+    left: 1%; */
+}
+/* our lawyers */
+.out{
+    position: relative;
+    color: #636363;
+    font-size: 1.2rem;
+    left: 200px;
+    top: -250px;
+
+}
+/* fotter */
+.in{
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    height:5px;
+    top:240px ;
+
+}
+/* about us */
+ .hello{
+    position: relative;
+    font-size: 2.25rem;
+    font-family: 'lora',serif;
+    color: #fff;
+    align-items: center;
+    justify-items: center;
+    top: -30px;
+    left: 490px;
+} 
+/* about ustext */
+.say{
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    height:600px;
+    top: 60px;
+
+}
+/* ouraim */
+.our{
+    position:relative;
+    color: #1f2a30;
+    top: 30px;
+    font-size: 1.6rem;
+    left:35px;
+    line-height: 1.6;
+    margin-block-end: 2em;
+}
+/* border */
+.glossy{
+    position: relative;
+    border:1px solid #ff974f;
+    width: 80px;
+    height: 1px;
+    left: 35px;
+    top: -7px;
+}
+/* imag */
+.swap{
+    position: relative;
+    top: -450px;
+    left: 60%;
+}
+/* background */
+.img2{
+        background-image: url(../images/tade.jpg);
+        width: 100%;
+        height: 800px;
+}
+/* whitebg */
+#white2{
+    background-color: #f1f1f1;
+    height: 490px;
+    width: 75%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top: 160px;
+    left: 150px ;
+}
+/* talktous */
+.xoxo2{
+    font-size: 1rem;
+    font-family: inherit;
+    color: #1f2a30;
+    top: 50px;
+    position: relative;
+    left:5% ;
+}
+/* contacts */
+.off2{
+    font-size: 1.6rem;
+    font-family: 'lora',serif;
+    color: #1f2a30;
+    top: 60px;
+    position: relative;
+    left:5% ; 
+}
+/* logos */
+.see2{
+    width: 200px;
+    position: relative;
+    left: 700px;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 20px; */
+}
+/* logostyling */
+.pen2{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #636363;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pen2:hover{
+    color: orange;
+    opacity: 0.87;
+}
+/* textbox */
+.form2{
+    position: relative;
+    left: 300px;
+    top: 30px;
+}
+/* textboxstyle */
+.form2 input{
+    width:400px ;
+    padding: 10px;
+    position: relative;
+    border-radius: 5px;
+    margin-top: 10px;
+    left: 200px;
+    border:1px solid #636363;
+}
+/* messagebox */
+.blue{
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    margin-top: 10px;
+    left: 200px;
+    border-radius: 5px;
+    border:1px solid #636363;
+    padding: 10px;
+}
+
+/* msgbtn */
+.work{
+    position: absolute;
+    top: 350px;
+    left: 730px;
+    background-color: #ff974f;
+    color: aliceblue;
+    padding:15px 40px 15px 40px;
+    border-radius: 5px;
+}
+.work:hover{
+    background-color: #ff8c00
+}
+
+/* border */
+.rant2{
+    position: relative;
+    border:1px solid#ff974f ;
+    width: 80px;
+    height: 2px;
+    top: -30px;
+    left: 50px;
+}
+/* phone2 */
+.color2{
+    position:relative ;
+    top:60px ;
+    color: #1f2a30;
+    left: 50px;
+}
+/* envelope */
+.location1{
+    position: relative;
+    top: 80px;
+    left: 50px;
+    color: #1f2a30;
+}
+/* marp */
+.location2{
+    position:relative;
+    top: 90px;
+    left: 50px;
+    color: #1f2a30;
+
+    /* position: relative;
+    top:-130px;
+    color:#1f2a30;
+    left:50px; */
+}
+/* our lawyers */
+.out2{
+    position: relative;
+    color: #636363;
+    font-size: 1.2rem;
+    left: 200px;
+    top: -150px;
+
+}
+/* foot */
+.in2{
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    height:15vh;
+    top:240px ;
+
+}
+/* practice area */
+/* our practicearea */
+.hello2{
+    position: relative;
+    font-size: 2.25rem;
+    font-family: 'lora',serif;
+    color: #fff;
+    align-items: center;
+    justify-items: center;
+    top: -30px;
+    left: 350px;
+}
+/* white background */
+ .say2{
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    height:60%;
+    top: 60px;
+
+}
+/* imageurl */
+.imgag{
+    position: relative;
+    background-image: url(../images/tade.jpg);
+    width: 100%;
+    height: 800px;
+    top: 300px;
+}
+/* whitebackground */
+ #sync{ 
+background-color: #f1f1f1;
+height: 490px;
+width: 75%;
+position: relative;
+justify-content: center;
+align-items: center;
+top: 160px;
+left: 150px ;
+}
+/* talk to us now */
+.teal{
+font-size: 1rem;
+font-family: inherit;
+color: #1f2a30;
+top: 50px;
+position: relative;
+left:5% ;
+}
+/* contactus */
+.wrap{
+font-size: 1.6rem;
+font-family: 'lora',serif;
+color: #1f2a30;
+top: 60px;
+position: relative;
+left:5% ; 
+}
+/* icons */
+.list{
+width: 200px;
+position: relative;
+left: 700px;
+display: flex;
+justify-content: space-between;
+/* padding: 20px; */
+}
+/* icons styling */
+.page{
+width: 30px;
+height: 30px;
+border: 1px solid #636363;
+border-radius: 7px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.page:hover{color: orange;
+opacity: 0.87;
+}
+
+/* formclass */
+    .sage{
+        position: relative;
+        left: 450px;
+        top: 20px;
+    }
+    /* textinput */
+    .sage input{
+        width: 450px;
+        padding: 15px;
+        margin-top: 20px;
+        border-radius: 5px;
+        border:1px solid #636363;
+    }
+    /* messagearea */
+    .green{
+        position: absolute;
+        width:450px ;
+        height:100px;
+        border-radius: 5px;
+        padding: 20px;
+    
+    }
+    /* msg btn */
+    .buy {
+        position: relative;
+        top: 170px ;
+        left: 730px;
+        background-color: #ff974f;
+        padding:15px 40px 15px 40px ;
+        border-radius: 5px;
+        color: aliceblue;
+     }
+     .buy:hover{
+        background-color:#ff8c00;
+     }
+    
+
+     .tech{
+        position: relative;
+        border: 1px solid#ff974f;
+        width: 80px;
+        height: 2px;
+        top: -120px;
+        left: 50px;
+    }
+
+/* phone */
+.group{
+position: relative;
+top:-35px ;
+left: 50px;
+color: #1f2a30;
+
+}
+/* mail */
+.from{
+    position: relative;
+    top: -40px;
+    left: 50px;
+    color: #1f2a30;
+}
+/* address */
+.from2{
+    position: relative;
+    top:-35px;
+    left: 50px;
+    color: #1f2a30;
+    
+}
+
+
+/* line */
+.area{
+    position: relative;
+    color: #636363;
+    font-size: 1.2rem;
+    top: -170px;
+    left: 200px;
+    /* position: relative;
+    color: #636363;
+    font-size: 1.2rem;
+    left: 200px;
+    top: -150px; */
+
+}
+.class{
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    height:10vh;
+    top:240px ;
+
+}
+ .talk{
+    background-color: white;
+    color:black;
+    left: 50px;
+    position: relative;
+    font-size: 16px;
+    font-weight: 900;
+    font-family:inherit;
+    letter-spacing:1px;
+    align-items: center;
+    padding-top:16px;
+    padding:12px 22px;
+    border: 2px solid #f1f1f1;
+}
+.talk:hover{
+    border: 1px solid #ff8c00;
+}
